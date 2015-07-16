@@ -26,8 +26,6 @@ int main() {
             chrono::system_clock::now().time_since_epoch());
 
     cout << (end - start).count() << endl;
-    cout << cb1.intersect(cb2).length();
-    cin.get();
     return 0;
 
 
